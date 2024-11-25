@@ -1,0 +1,70 @@
+@media screen and (max-width:1007px)
+{
+   .star, .fa-bars{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+   } 
+   .item-mid, .call, .two, .back{
+    display: none;
+   }
+   
+}
+@media screen and (max-width:1007px)
+{
+    
+h3{
+    font-family: var(--font-fam);
+    font-size: 25px;
+    line-height: 10px;
+    padding-left: 1.8rem;
+    padding-top: 2rem;
+    color: var(--col);
+}
+.spanner{
+    display:flex;
+    flex-wrap: wrap;
+    width: 420px;
+}
+}
+
+ /* @media screen and (min-width:1150px) */
+ /* Tablet */
+ @media (min-width: 768px) and (max-width:1024px)
+{
+    .spanner{
+        display: flex;
+        width: 200px;
+        margin: auto;
+        gap: 1rem;
+    }
+} 
+@media screen and (max-width:1007px)
+{
+    .bukky{
+        font-family: var(--font-fam);
+        font-size: 10px ;
+    }
+    .sucess{
+        font-family: var(--font-fam);
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1007px)
+{
+    .cable h4{
+        font-family: var(--font-fam);
+        font-size: 16px;
+        line-height: 31px;
+        font-weight: var(--font-w2);
+        margin-right: 4rem;
+    }
+}
+@media screen and (max-width:1007px)
+{
+    .butterfly{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+     } 
+}

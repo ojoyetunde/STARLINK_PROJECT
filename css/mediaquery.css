@@ -1,0 +1,12 @@
+@media screen and (max-width:678px)
+{
+   .star, .fa-bars{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+   } 
+   .item-mid, .two{
+    display: none;
+   }
+   
+}

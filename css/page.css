@@ -1,0 +1,610 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-fa:roboto;
+    --font-size:14px;
+    --line-h:26px;
+    --col:rgb(250,250,250);
+    --font-w:700;
+    /* Button */
+    --col-2:rgb(0,0,0);
+    --line-h2:18px;
+    --font-size2:16px;
+    --font-fam:DIN_Regular, Arial, Verdana, sans-serif;
+    --font-w2:400;
+    --line-h3:20px;
+    --pad:20px 120px;
+    --font-sty:normal;
+}
+body{
+    background-image: url(../project-images/blacker.jpg);
+}
+header{
+    background-image: url(../project-images/first-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-items{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    /* padding: var(--pad); */
+    padding: 3rem 4rem;
+}
+.items-1{
+    display: flex;
+    gap: 5rem;
+}
+.items-2{
+    display: flex;
+    /* gap: 2rem; */
+    font-family: var(--font-fa);
+    font-style: var(--font-sty);
+    line-height: var(--line-h);
+    font-size: 10px;
+    font-weight: var(--font-w);
+    color: rgb(250,250,250);
+    text-decoration: none;
+}
+.call{
+    color: var(--col);
+}
+.back{
+    color: var(--col);
+    text-decoration: none;
+}
+.pen{
+    color: var(--col);
+    text-decoration: none;
+}
+.pin{
+    color: var(--col);
+    text-decoration: none;
+}
+.pan{
+    color: var(--col);
+    text-decoration: none;
+}
+.item-mid{
+    display: flex;
+    gap: 2rem;
+    font-family: var(--font-fa);
+    font-style: var(--font-sty);
+    line-height: var(--line-h);
+    font-size: 10px;
+    font-weight: var(--font-w);
+    color: white;
+    text-decoration: none;
+}
+.fa-bars{
+    color: white;
+}
+button img{
+   background-color: white;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+}
+.star{
+    font-family: var(--font-fa);
+    font-style: var(--font-sty);
+    line-height: var(--line-h);
+    font-size: 25px;
+    font-weight: var(--font-w);
+    color: var(--col);
+    text-decoration: none;
+}
+.high{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-fam);
+    font-size: 30px;
+    font-weight: var(--font-w);
+    line-height: 88px;
+}
+.connect{
+    font-family: var(--font-fam);
+    font-size: 25px;
+    font-weight: var(--font-w2);
+    line-height: 30px;
+}
+.high button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    font-weight: var(--font-w);
+    line-height: 20px;
+    color: var(--col);
+    background-color: transparent;
+}
+.fa-circle-play{
+    color: white;
+}
+label{
+    font-family: var(--font-fam);
+    font-size: 14px;
+    font-weight: var(--font-w);
+    line-height: 15px;
+    
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 400px;
+    height: 50px;
+    padding: 1.5rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.mosque{
+    font-family: var(--font-fam);
+    font-weight: var(--font-w);
+    font-size: 11px;
+    line-height: 46px;
+}
+.chat{
+    text-decoration: none;
+    color: var(--col);
+    margin-left: 4rem;
+    width: 700px;
+    height: 150px;
+    font-size: 12px;
+}
+.chat:hover{
+    border:none;
+    background: #c7c8ca;
+}
+.exam{
+    width: 200px !important;
+    height: 50px !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    border-radius: 5px !important;
+}
+@media (max-width:767px){
+
+    .spanner{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .butterfly{
+        display: flex;
+        flex-direction: column;
+    }
+    .high{
+        font-size: small;
+        line-height: 35px;
+    }
+    .item-mid{
+        display: none;
+    }
+    .items-2{
+        display: none;
+    }
+    .fa-bars a{
+        display: block;
+    }
+    .bottle{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 200px;
+    }
+    .cola h3{
+        font-size: 20px;
+    }
+    .fanta p{
+        font-size: 10px;
+    }
+    /* .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    } */
+    .scarf{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .a-con{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:768px) and (max-width:1024px)
+{
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .spanner{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .high{
+        font-size: small;
+        line-height: 35px;
+    }
+    .item-mid{
+        display: none;
+    }
+    .items-2{
+        display: none;
+    }
+    .fa-bars a{
+        display: block;
+    }
+    h1{
+       line-height: 35px; 
+    }
+    .connect{
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .high button{
+        font-size: 12px;
+    }
+    form{
+        margin-left: 1.5rem;
+    }
+    .chat{
+        text-align: center;
+    }
+    input{
+        width: 450px
+    }
+    .exam{
+      width: 450px !important;
+      margin-top: 1rem !important;
+
+    }
+    .butterfly{
+        display: grid !important;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .him{
+        text-align: center;;
+    }
+    .must{
+        width: 600px;
+        margin: auto;
+    }
+    .bottle{
+        display: grid !important;
+        grid-template-columns: 1fr;
+    }
+    .dan{
+        margin-top: 2rem;
+    }
+}
+.Address{
+    background-image: url(../project-images/lamp-on-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 420px;
+    margin-top: 2rem;
+    padding-bottom: 25rem;
+}
+.location{
+    background-image: url(../project-images/lamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 420px;
+    margin-top: 2rem;
+    padding-bottom: 25rem;
+}
+.centre{
+    background-image: url(../project-images/ship\ on\ water.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 420px;
+    margin-top: 2rem;
+    padding-bottom: 25rem;
+}
+.google{
+    font-family: var(--font-fa);
+    font-size: 18px;
+    line-height: 30px;
+}
+.google:hover{
+    font-family: var(--font-fam);
+    font-size: 25px;
+    line-height: 30px;
+}
+.spanner{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+.spanner a{
+    text-decoration: none;
+}
+.Address:hover{
+    background-image: url(../project-images/lamp-on-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scale: 1.05;
+}
+.location:hover{
+    background-image: url(../project-images/lamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scale: 1.05;
+}
+.centre:hover{
+    background-image: url(../project-images/ship\ on\ water.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scale: 1.05;
+}
+h3{
+    font-family: var(--font-fam);
+    font-size: 40px;
+    line-height: 10px;
+    padding-left: 1.8rem;
+    padding-top: 2rem;
+    color: var(--col);
+}
+p, a{
+    color: var(--col);
+    font-size: 18px;
+    padding-left: 1.8rem;
+    line-height: 5%0px;
+}
+.result{
+    color: var(--col);
+    text-align: center;
+}
+.sucess{
+    font-family: var(--font-fam);
+    font-size: 41px;
+    font-weight: var(--font-w);
+    line-height: 62px;
+}
+.bukky{
+    font-family: var(--font-fam);
+    font-size: 14px;
+    line-height: 20px;
+}
+.middle{
+    font-family: var(--font-fam);
+    font-size: 11px;
+    font-weight: var(--font-w);
+    line-height: 36px;
+    text-decoration: none;
+}
+.cable{
+    background-image: url(../project-images/man\ with\ lamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--col);
+    padding: 6rem 2rem;
+    padding-bottom: 27rem;
+    margin-top: 12rem;
+}
+.cable h4{
+    font-family: var(--font-fam);
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: var(--font-w);
+    margin-left: 1.8rem;
+}
+.name p{
+    font-family: var(--font-fam);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: var(--font-w2);
+}
+.butterfly{
+   margin-top: 2rem;
+   display: flex;
+   justify-content: space-around;
+}
+.oga{
+    color: var(--col);
+    font-size: 30px;
+    line-height: 69px;
+    font-family: var(--font-fam);
+    font-weight: var(--font-w);
+    margin-left: 1.8rem;
+}
+.chrome{
+    color: var(--col);
+    font-size: 14px;
+    line-height: 70px;
+    font-family: var(--font-fam);
+    font-weight: var(--font-w2);
+}
+.chromes{
+    color: var(--col);
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--font-fam);
+    font-weight: var(--font-w2);
+}
+.goodnews{
+    color: var(--col);
+    font-size: 25px;
+    line-height: 44px;
+    font-family: var(--font-fam);
+    font-weight: var(--font-w);
+    margin-left: 1.8rem;
+}
+.him{
+    color: var(--col);
+    font-family: var(--font-fam);
+    font-size: 10px;
+    line-height: 36px;
+    font-weight: var(--font-w);
+}
+.tone{
+    display: flex;
+}
+.bottle{
+    margin-top: 18rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 15rem 2rem;
+}
+.container{
+    color: var(--col);
+    font-family: var(--font-fam);
+    font-size: 40px;
+    font-weight: var(--font-w);
+    line-height: 69px;
+    margin-left: 1.8rem;
+
+}
+.shoprite{
+    font-family: var(--font-fam);
+    font-size: 14px;
+    font-weight: var(--font-w2);
+    line-height: 20px;
+}
+.me{
+    margin-top: 10rem;
+}
+.danger{
+    background-image: url(../project-images/fire-way.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30rem;
+}
+.amebo h3{
+    font-family: var(--font-fam);
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: var(--font-w);
+    color: var(--col);
+}
+.maggi{
+    font-family: var(--font-fam);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: var(--font-w2);
+    margin-top: 2rem;
+}
+.salt{
+    width: 120px;
+    height: 40px;
+    border: 1px solid;
+    margin-top: 2rem;
+    margin-left: 1.8rem;
+    font-family: var(--font-fam);
+    font-size: 11px;
+    font-weight: var(--font-w);
+    line-height: 34px;
+    background-color: transparent;
+    color: var(--col);
+}
+.cookies{
+    padding-top: 7.5rem;
+}
+.burger{
+    margin-top: 6rem;
+    margin: auto;
+    width: 700px;
+}
+.cola{
+    font-family: var(--font-fam);
+    font-size: 41px;
+    line-height: 62px;
+    font-weight: var(--font-w);
+    text-align: center;
+}
+.fanta{
+    font-family: var(--font-fam);
+    font-size: 20px;
+    font-weight: var(--font-w2);
+    line-height: 30px;
+    text-align: center;
+}
+.scarf a{
+    font-family: var(--font-fa);
+    font-size: 12px;
+    font-weight: var(--font-w);
+    text-decoration: none;
+    line-height: 20px;
+}
+.began{
+    font-family: var(--font-fa);
+    font-size: 12px;
+    font-weight: var(--font-w2);
+    line-height: 20px;
+}
+.protect{
+    font-family: var(--font-fa);
+    font-size: 12px;
+    font-weight: var(--font-w2);
+    line-height: 20px;
+}
+.jersey a{
+    font-family: var(--font-fam);
+    font-size: 12px;
+    text-decoration: none;
+}
+.tick{
+    font-family: var(--font-fa);
+    font-size: 12px;
+    font-weight: var(--font-w2);
+    line-height: 20px;
+    color: var(--col);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    background-color: black;
+    margin-top: 8rem;
+}
+.scarf{
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+}
+.a-con{
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.jersey{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.orange{
+    text-align: center;
+    margin-top: 14rem;
+}
+.orange h2{
+    font-family: var(--font-fam);
+    font-size: 41px;
+    font-weight: var(--font-w);
+    line-height: 62px;
+    color: var(--col);
+}
