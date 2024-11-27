@@ -109,6 +109,31 @@ nav a{
     .star a{
         font-size: 12px;
     }
+    .spanner{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .spanner .Address{
+        height: 200px;
+        width: auto;
+    }
+    .spanner .location{
+        height: 200px;
+        width: auto;
+    }
+    .Address h3{
+        font-size: 20px;
+    }
+    .spanner h3{
+        font-size: 20px;
+    }
+    .location h3{
+        font-size: 20px;
+    }
+    .card-con .cc{
+        width:  !important;
+    }
 }
 @media (max-width:945px) {
     .eraser{
@@ -493,3 +518,14 @@ nav a{
     border: none;
     margin-top: 3rem;
 }
+/* .spanner .Address{
+    width: 650px;
+}
+.spanner .location{
+    width: 650px;
+} */
+ .spanner{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+ }
